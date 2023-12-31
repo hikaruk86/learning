@@ -1,0 +1,289 @@
+.bg{
+    background: blue;
+}
+
+.bgImage{
+    background-image: url('/html-css-js-curriculum-template-main/html-css-js-curriculum-template-main/css_learning/css/image/apple.png');
+    background-repeat: no-repeat;
+
+}
+
+.bgFixed{
+    background-image: url('/html-css-js-curriculum-template-main/html-css-js-curriculum-template-main/css_learning/css/image/apple.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bgPosition{
+    background-image: url('/html-css-js-curriculum-template-main/html-css-js-curriculum-template-main/css_learning/css/image/apple.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bgRepeat{
+    background-image: url('/html-css-js-curriculum-template-main/html-css-js-curriculum-template-main/css_learning/css/image/apple.png');
+    background-repeat: repeat;
+}
+
+.bgCenter{
+    background-image: url('/html-css-js-curriculum-template-main/html-css-js-curriculum-template-main/css_learning/css/image/apple.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.borderBottom{
+    border-bottom: 1px solid blue;
+}
+
+.borderColor{
+    border: 1px solid blue;
+}
+
+.borderLeft{
+    border-left: 1px solid blue;
+}
+
+.borderRight{
+    border-right: 1px solid blue;
+}
+
+.borderTop{
+    border-top: 1px solid blue;
+}
+
+.borderLineColor{
+    border-top: 1px solid red;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid yellow;
+    border-left: 1px solid green;
+}
+
+.borderWidth{
+    border-top: 2px solid blue;
+    border-right: 4px solid blue;
+    border-bottom: 8px solid blue;
+    border-left: 16px solid blue;
+}
+
+.border{
+    border: 1px solid blue;
+}
+
+.textColor{
+    color: blue;
+}
+
+.cursorType{
+    cursor: pointer;
+}
+
+.display{
+    display: flex;
+}
+
+.filter{
+    filter: blur(1px);
+}
+
+.float{
+    float: right;
+}
+
+.noFloat{
+    clear: both;
+}
+
+.fontFamily{
+    font-family: serif, "メイリオ";
+}
+
+.fontSize{
+    font-size: 32px;
+}
+
+.fontWeight{
+    font-weight: bold;
+}
+
+.font{
+    font: italic bold x-small/1.5em Verdana;
+}
+
+.height{
+    height: 8px;
+    background: blue;
+}
+
+.width{
+    width: 128px;
+    background: blue;
+}
+
+.letterSpacing{
+    letter-spacing: 16px;
+}
+
+.lineHeight{
+    line-height: 32px;
+}
+
+.listStyleImage{
+    list-style-image: url("/html-css-js-curriculum-template-main/html-css-js-curriculum-template-main/css_learning/css/image/listApple.png");
+}
+
+.listStyle{
+    list-style-position: inside;
+}
+
+.listStyleType{
+    list-style-type: circle;
+}
+
+.listStyleBulk{
+    list-style: circle inside;
+}
+
+.marginBottom{
+    margin-bottom: 32px;
+}
+
+.marginLeft{
+    margin-left: 32px;
+}
+
+.marginRight{
+    margin-right: 32px;
+}
+
+.marginTop{
+    margin-top: 32px;
+}
+
+.marginBulk{
+    margin: 32px 32px 32px 32px;
+    background: blue;
+}
+
+.paddingBottom{
+    padding-bottom: 32px;
+}
+
+.paddingLeft{
+    padding-left: 32px;
+}
+
+.paddingRight{
+    padding-right: 32px;
+}
+
+.paddingTop{
+    padding-top: 32px;
+}
+
+.paddingBulk{
+    padding: 32px 32px 32px 32px;
+    background: blue;
+}
+
+.overFlow{
+    overflow: scroll;
+}
+
+.position{
+    position: relative;
+    height: 50px;
+    width: 240px;
+    border: 3px solid blue;
+}
+
+.childPosition{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.textPosition{
+    text-align: center;
+}
+
+.decoration{
+    text-decoration: underline;
+}
+
+.indent{
+    text-indent: 50%;
+}
+
+.vertical{
+    vertical-align: top;
+}
+
+.visibility{
+    visibility: hidden;
+}
+
+.indexParent{
+    position: relative;
+}
+
+.indexChild{
+    position: absolute;
+    background: blue;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.indexChild2{
+    position: absolute;
+    background: red;
+    left: 20px;
+    top: 20px;
+}
+
+.hover:hover{
+    color: blue;
+}
+
+.focus:focus{
+    background: blue;
+}
+
+.checkBox input[type="checkbox"]{
+    accent-color: red;
+}
+
+.firstCss p:first-child{
+    color: red;
+}
+
+.h5Css h5:first-child{
+    color: red;
+}
+
+.lastCss :last-child{
+    color: red;
+}
+
+.noLastCss :not(:last-child){
+    color: red;
+}
+
+.nthCss :nth-child(n+2):nth-child(-n+3){
+    color: red;
+}
+
+.active :active{
+    color: red;
+    background: blue;
+}
+
+.lastChild::after{
+    display: block;
+    content: "cssによって追加された文字です";
+}
+
+.firstChild::before{
+    display: block;
+    content: "cssによって追加された文字です";
+}
